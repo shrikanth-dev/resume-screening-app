@@ -12,7 +12,15 @@ const app = express();
 const analysisRoutes = require("./routes/analysisRoutes");
 const exportRoutes = require("./routes/exportRoutes");
 
-app.use(cors());
+app.use(
+      cors({
+    origin: [
+      "https://resume-screening-app-chi.vercel.app"
+    ],
+    methods: ["GET", "POST"],
+    credentials: true
+  })
+);
 app.use(express.json());
 app.use("/api/upload", uploadRoutes);
 app.use("/api/analyze", analysisRoutes);
