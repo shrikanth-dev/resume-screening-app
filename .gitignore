@@ -14,6 +14,7 @@ logs
 
 # Uploaded resumes
 backend/uploads/*
+!backend/uploads/.gitkeep
 
 # OS
 .DS_Store
