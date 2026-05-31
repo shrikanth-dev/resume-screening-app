@@ -1,0 +1,85 @@
+.processing-page {
+  min-height: 100vh;
+  background: #eef4ff;
+  padding: 40px;
+}
+
+.processing-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.processing-header h1 {
+  margin-bottom: 10px;
+}
+
+.processing-header p {
+  color: #64748b;
+}
+
+.processing-content {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.progress-section {
+  width: 350px;
+}
+
+.progress-circle {
+  width: 180px;
+  margin: 0 auto;
+}
+
+.processing-text {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.ai-card {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.ai-card p {
+  color: #475569;
+  line-height: 1.6;
+}
+
+.steps-section {
+  width: 450px;
+}
+
+.step-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  padding: 18px 22px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.04);
+}
+
+.status-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #cbd5e1;
+}
+
+.step-card.active .status-dot {
+  background: #2563eb;
+}
+
+.step-card.completed .status-dot {
+  background: #10b981;
+}

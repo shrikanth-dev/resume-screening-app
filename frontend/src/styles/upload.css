@@ -1,0 +1,118 @@
+.upload-page {
+    min-height: 100vh;
+    background: #f8fafc;
+    padding: 40px;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page-header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    color: #64748b;
+}
+
+/* .upload-container {
+    max-width: 1000px;
+    margin: auto;
+} */
+
+.main-content {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.card {
+    flex: 1;
+    background: white;
+    padding: 24px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 12px rbga(0, 0, 0, 0.5);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.upload-box {
+    height: 220px;
+    border: 2px dashed #2563eb;
+    border-radius: 12px;
+    padding: 50px;
+    text-align: center;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.upload-box p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.upload-box span {
+    color: #64748b;
+}
+
+.file-list {
+    margin-top: 20px;
+}
+
+.file-item {
+    padding: 12px;
+    margin-bottom: 10px;
+    background: #f1f5f9;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 98%;
+    height: 220px;
+    padding: 15px;
+    resize: vertical;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.jd-upload {
+    margin-top: 15px;
+}
+
+.upload-jd-btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.analyze-btn {
+    margin-top: 20px;
+    width: 100%;
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.analyze-btn:hover {
+    background: #1d4ed8;
+}
