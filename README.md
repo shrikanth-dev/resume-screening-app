@@ -73,9 +73,9 @@ The application allows recruiters to upload multiple resumes and a job descripti
 
 ### Screenshot
 
-![Home Page](frontend/assets/uploadPage)
-![Processing Page](frontend/assets/processingPage)
-![Results Page](frontend/assets/resultsPage)
+![Home Page](frontend/src/assets/uploadPage.png)
+![Processing Page](frontend/src/assets/processingPage.png)
+![Results Page](frontend/src/assets/resultsPage.png)
 
 
 ### Tech Stack
