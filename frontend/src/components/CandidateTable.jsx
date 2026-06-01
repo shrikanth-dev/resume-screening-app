@@ -129,7 +129,7 @@ function CandidateTable({
               <td>
 
                 <a
-                  href={candidate.resumeUrl}
+                  href={`${import.meta.env.VITE_API_URL}/uploads/${candidate.resumeFile}`}
                   target="_blank"
                   rel="noreferrer"
                   className="preview-btn"
